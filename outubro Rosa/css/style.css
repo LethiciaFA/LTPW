@@ -1,0 +1,14 @@
+header{
+    background-color: palevioletred;
+    position:fixed;
+    
+}
+h1{
+    background-size: 80% ;
+    background-position: center ;
+    background-color: rgb(221, 8, 79);
+
+}
+body{
+    background-color: rgb(236, 149, 197);
+}
