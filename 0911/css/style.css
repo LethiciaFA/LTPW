@@ -1,0 +1,29 @@
+#produtos,#sobre,#fale{
+    min-height: 100vh;
+    padding: 4em;
+}
+
+#produtos{
+    background-color: rgb(237, 231, 152);
+}
+#sobre{
+    background-color: rgb(242, 162, 242);
+    color: rgb(121, 62, 62);
+}
+#fale{
+    background-color: #deb887;
+    color: black;
+}
+nav{
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 10000;
+}
+#produtos-img{
+ max-height: 450px;
+}
+.card h5{
+    text-align: center;
+    margin-bottom: 1em;
+}
