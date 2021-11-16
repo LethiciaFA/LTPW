@@ -4,14 +4,14 @@
 }
 
 #produtos{
-    background-color: rgb(237, 231, 152);
+    background-color: rgb(243, 234, 109);
 }
 #sobre{
-    background-color: rgb(242, 162, 242);
-    color: rgb(121, 62, 62);
+    background-color: rgb(238, 115, 238);
+    color: rgb(121, 50, 50);
 }
 #fale{
-    background-color: #deb887;
+    background-color: #f0b972;
     color: black;
 }
 nav{
@@ -26,4 +26,28 @@ nav{
 .card h5{
     text-align: center;
     margin-bottom: 1em;
+}
+#subir a{
+    position: fixed;
+    right: 0.5em;
+    bottom: 1em;
+    text-decoration: none;
+    color:rgb(255, 145, 0) ;
+    opacity: 0.5em;
+    text-align:  center;
+
+}
+#subir a i {
+    font-size: 3em;
+
+}
+#subir a:hover{
+    opacity: 1em;
+}
+#subir{
+    display: none;
+}
+.nav-link{
+    font-family: sans-serif;
+    color: palevioletred;
 }
