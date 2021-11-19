@@ -11,58 +11,73 @@
     <title>Lanchonete Burguer</title>
   </head>
   <body>
-  
+  <!---------------------------------------Início Navbar----------------------------------------------------------->
     <nav class="navbar " id="cor">
       <div class="container-fluid"> 
         <a class="navbar-brand" href="#">
         <img src="img/big queen.png" alt="" width="70" height="58" class="d-inline-block align-text-top">
+       </a>
+        <h1 id="logo"> Big Queen</h1> 
         
-    
-        </a>
-        <h3 id="logo">LANCHONETE BURGUER </h3>
-          <ul class="nav justify-content-center">
+          <ul class="nav justify-content-center" id="navtitulos">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="produtos">PRODUTOS</a>
+                <a class="nav-link" href="sobre">Sobre Nós</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="sobre">SOBRE NÓS</a>
+                <a class="nav-link" href="produtos">Produtos</a>
             </li>
           
           </ul>
       </div>
     </nav>
-    
-    <div>
+    <!-------------------------------------------------Fim Navbar------------------------------------------------->
+    <!------------------------------------------------ Início Home------------------------------------------------->
+
+    <div id="home">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">  
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/BANNER CARNE.png"d-block w-100" alt="..." height="689em">
-          </div>
-          <div class="carousel-item">
-            <img src="img/BANNER VEGETARIANO.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/BANNER DELIVERY.png" class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+              <img src="img/BANNER CARNE.png" class="d-block w-100" alt="banner carne">
+            </div>
+            <div class="carousel-item">
+              <img src="img/BANNER VEGETARIANO.png" class="d-block w-100" alt="banner vegetariano">
+            </div>
+            <div class="carousel-item">
+              <img src="img/BANNER DELIVERY.png" class="d-block w-100" alt="banner delivery">
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
       </div>
     </div>
+    <!--------------------------------------------------------Fim Home------------------------------------------------------------------------->
+
+    <!---------------------------------------------------------Início Sobre Nós---------------------------------------------------------------->
+    <div id="sobre">
+      <div class="row">
+        <div class="col-6">
+          <h1 id="titulo">Sobre Nós</h1>
+        </div>
+      </div>
+    </div>
+
+   
     
     
   </body>
