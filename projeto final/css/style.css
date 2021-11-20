@@ -15,6 +15,9 @@
     font-family: 'Fredoka One','cursive' ;
    
 }
+#home{
+    background-color: rgb(255, 112, 0) ;
+}
 #titulo{
     font-family: 'Fredoka One','cursive' ;
     color: rgb(255, 184, 49);
@@ -22,13 +25,97 @@
 #sobre{
     background-color: rgb(168, 67, 0);
 }
+#burguer{
+    background-color: rgb(255, 112, 0);
+    font-family:  'Fredoka One','cursive';
+
+    
+}
+#frango{
+    background-color: rgb(185, 40, 12);
+}
+#veggie{
+    background-color: rgb(255, 184, 49);
+}
+#acom{
+    background-color: rgb(255, 112, 0);
+}
+#bebidas{
+    background-color: rgb(185, 40, 12);   
+}
+#sobr{
+    background-color: rgb(255, 184, 49);   
+}
+#title{
+   text-align:center;
+   color:rgb(255, 248, 230) ;
+   font-family: 'Fredoka One','cursive' ;
+   margin-top: 1em;
+}
+#titlev{
+    text-align:center;
+   color:  rgb(168, 67, 0);
+   font-family: 'Fredoka One','cursive' ;
+   margin-top: 1em;
+}
+
+#cards{
+    margin-left: 0em;
+    font-family: 'Fredoka One','cursive';
+    color: rgb(255, 184, 49);
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#cardsfrango{
+    font-family: 'Fredoka One','cursive';
+    color: rgb(255, 184, 49);
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
 
 
 
 
 
+
+
+.btn{
+    font-family: 'Fredoka One','cursive';
+    background-color:rgb(255, 184, 49) ;
+    align-self: center;
+    color:rgb(168, 67, 0) ;
+}
+.navbar{
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 10000;
+}
 .nav-link{
     color:rgb(168, 67, 0) ;
     font-size: 2em;
+}
+
+#subir a{
+    position: fixed;
+    right: 0.5em;
+    bottom: 1em;
+    text-decoration: none;
+    color: rgb(255, 248, 230) ;
+    opacity: 0.5em;
+    text-align:  center;
+
+}
+#subir a i {
+    font-size: 3em;
+
+}
+#subir a:hover{
+    opacity: 1em;
+}
+#subir{
+    display: none;
 }
 
