@@ -28,7 +28,8 @@
 #burguer{
     background-color: rgb(255, 112, 0);
     font-family:  'Fredoka One','cursive';
-
+    margin-top: -2em;
+    padding: 2em;
     
 }
 #frango{
@@ -60,7 +61,6 @@
 }
 
 #cards{
-    margin-left: 0em;
     font-family: 'Fredoka One','cursive';
     color: rgb(255, 184, 49);
     text-align: center;
