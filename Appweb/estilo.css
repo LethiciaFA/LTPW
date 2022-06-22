@@ -1,0 +1,24 @@
+a {
+    color:aliceblue
+}
+#id_div-rodape a {
+    color:green;
+}
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botao { /*colocar um em cima do outro*/
+display:block;
+}
+#id_senha {
+    padding: 20px;
+    border: 1px solid red; /*borda*/
+    margin: 30px /*margem*/
+}
+.container { /*é a classe identificada no html*/
+    width:  80%; /*tamanho das coisas*/
+    margin: auto; /*margem automática*/
+}
+.submit {
+    color: aqua;
+}

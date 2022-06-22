@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" /> <!--inserir o css externo, tem que mudar o nome do .css-->
+    <style>
+        /*css inline*/
+        #id_div-navegacao, #id_div-rodape{
+            background-color: rgb(252, 250, 248);
+        }
+    </style>
+    
+</head>
+<body>
+ <div class="conteiner" >
+    <div id="id_div-navegacao" class="navegacao borda">
+        <h1 style="color:rgb(7, 140, 250)"> Cadastro Pessoal</h1>
+        </div>
+        <div>
+        <a href="./index.html">Home</a>
+        <a href="./formulario.html">Cadastro</a>
+        <a href="./sobre.html">Sobre</a>
+
+    </div>
+        
+    <div id="id_div-formulario">
+        <hr>
+        <form action="arquivo.php" method="POST">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="id_nome">Nome: </label>
+                <input type="text" id="id_nome" name="nome" placeholder="Digite seu nome">
+                <br>
+                <label for="id_CPF">CPF: </label>
+                <input type="text" id="id_CPF" name="CPF" placeholder="Digite seu CPF">
+                <label for="id_data">Nascimento: </label>
+                <input type="date" id="id_data" name="data">
+            </fieldset>
+        <fieldset>
+            <legend>Filiação</legend>
+                <label for="id_mãe">Mãe: </label>
+                <input type="text" id="id_mãe" name="Mãe" placeholder="Digite o nome da sua mãe">
+                <br>
+                <label for="id_pai">Pai: </label>
+                <input type="text" id="id_pai" name="Pai" placeholder="Digite o nome do seu pai">
+                <br>
+        </fieldset>
+        <fieldset>
+            <legend>Login</legend>
+                <label for="id_email">E-mail: </label>
+                <input type="email" id="id_email" name="E-mail" placeholder="Digite o seu e-mail">
+                <br>
+                <label for="id_pai">Senha: </label>
+                <input type="password" id="id_senha" name="Senha" placeholder="Digite sua senha">
+                <br>
+        </fieldset>
+    <hr>
+    <br>
+    <input type="submit" id="id_submit" class="botao submit " value="Enviar">
+    <input type="reset" id="id_reset" class="botao reset " value="Resetar">
+
+        </form>
+    </div>
+    <hr>
+    <div id="id_div-rodape"  class="rodape borda">
+    <h6> Desenvolvido por Tamara - <a href="https://www.eteot.rio.br"></a> FAETEC/ETEOT - TODOS OS DIREITOS RESERVADOS . 2022</h6>
+    </div>
+</div> 
+</body>
+</html>
